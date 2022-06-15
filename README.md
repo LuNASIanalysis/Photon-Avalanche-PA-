@@ -9,4 +9,13 @@ Here you can find Matlab software developed by us to perform automatized analysi
 
 Based on the experimental data files (please find that the file names format, containing experimental parameters, and the structure of the data in files have to be the same as in provided exemplary data files for the algorithm to work properly) this software automatically anlyses the data, finds the most important parameters of the PA phenomenon and plots them on the charts.
 
+INSTUCTION:
 
+- run the main_PowerDep.m file
+
+- select the folder containing the set of experimental data (from single experiment). It should contains 1 file with the power dependnce data and not limitted number of the coresponding files with the luminescence dynamics measurements (collected with TCSPC method). Importantly, the format of the names of the files should be not changed, as the algotithm automatically uses the experiment parameters included in the name of the files. Change in the format would result in algorithm errors.
+
+- algorithm is performing neccesary calculations, you are informed about the progres of the work
+as a result you obtain 2 figures - one presenting most of the results (power dependence curve, the fitting, residuals, slope, Dav parameter, tx% rise time - all of them plotted as a function of the excitation power density; luminescence dynamics curves for various power densities; report with the main parameters values) and the second comparing the raw data with the smoothed fitted curve, as well as presenting the location of determined PA threshold value.
+
+- the work is done
