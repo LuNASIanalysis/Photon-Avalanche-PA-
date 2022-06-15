@@ -9,6 +9,8 @@ Here you can find Matlab software developed by us to perform automatized analysi
 
 Based on the experimental data files (please find that the file names format, containing experimental parameters, and the structure of the data in files have to be the same as in provided exemplary data files for the algorithm to work properly) this software automatically anlyses the data, finds the most important parameters of the PA phenomenon and plots them on the charts.
 
+The expemplary set of test data is avaliable in the Test_experimental_data branch of this repository
+
 INSTUCTION:
 
 - run the main_PowerDep.m file
