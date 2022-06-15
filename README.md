@@ -5,6 +5,7 @@ Photon avalanche (PA) is the special type of the upconversion observed in crysta
 Here you can find Matlab software developed by us to perform automatized analysis of our experimental data. The experimental data contains the two types of results:
 - the power dependence between the excitation power (or power density) and resulting luminescence intensity of the avalanching system
 - the measurements of the dynamics of the rise and decay of luminescence intensity taken for the set of various excitation powers
+
 Based on the experimental data files (please find that the file names format, containing experimental parameters, and the structure of the data in files have to be the same as in provided exemplary data files for the algorithm to work properly) this software automatically anlyses the data, finds the most important parameters of the PA phenomenon and plots them on the charts.
 
 
